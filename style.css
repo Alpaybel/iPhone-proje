@@ -1,0 +1,54 @@
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Inconsolata:wght@200..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pirata+One&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Russo+One&family=UnifrakturMaguntia&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Archivo Black;
+}
+.video {
+    margin-top: 100px;
+}
+.text {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.text2 {
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.container-card {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    position: relative;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.card {
+    overflow: hidden; /* Resmin kart sınırlarını aşmasını engeller */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease; /* Geçiş efektini ayarlar */
+}
+.card:hover img {
+    transform: scale(1.2); /* Resmi büyütür */
+}
+.overlay {
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    color: white;
+}
+.overlay h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+.footer {
+    margin-top: 150px;
+}
